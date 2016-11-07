@@ -13,4 +13,18 @@ For other environment variables, see https://github.com/sorah/nginx_omniauth_ada
 
 `config.ru` is not included in this repository, but copy from `nginx_omniauth_adapter` gem installed path on build.
 
+## Docker image tags and git tags
+
+### Docker image tags
+
+- `latest`
+  - git master branch
+- `x.y.z-r`
+  - same as git tags
+
+### Git tags
+
+- `x.y.z-r`
+  - `x.y.z` : nginx\_omniauth\_adapter gem version
+  - `r` : revison number
 
