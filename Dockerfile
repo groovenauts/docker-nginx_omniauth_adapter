@@ -1,5 +1,5 @@
-FROM ruby:2.3.1
-MAINTAINER YAMADA Tsuyoshi <tsu-yamada@groovenauts.jp>
+FROM ruby:2.3.6
+LABEL maintainer "YAMADA Tsuyoshi <tsu-yamada@groovenauts.jp>"
 
 WORKDIR /usr/src/app
 ADD Gemfile* /usr/src/app/
